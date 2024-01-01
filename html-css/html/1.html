@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>1</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../highlight.css">
+</head>
+<body>
+  <a href="../index.html">Daftar isi</a>
+  <h1>Dasar HTML</h1>
+  <p>Silahkan setiap kode dicoba dan dipraktekan pada kode editor dan browser masing-masing</p>
+  <section>
+    <h2>Pengenalan</h2>
+    <p>HTML (Hyper Text Markup Language) adalah sebuah bahasa markup yang digunakan untuk membuat sebuah halaman web dan menampilkan berbagai informasi di dalam sebuah browser Internet.</p>
+    <p>- Wikipedia</p>
+    <p>HTML adalah bahasa markup yang kemudian diterjemahkan oleh browser menjadi halaman</p>
+    <p>atau</p>
+    <p>HTML adalah struktur halaman web</p>
+    <p>- Rehanaf</p>
+  </section>
+  <section>
+    <h2>Membuat Halaman</h2>
+    <p>Ini adalah contoh halaman HTML</p>
+    <pre><code class="language-xml">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Belajar Html&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World&lt;/h1&gt;
+    &lt;p&gt;Ini adalah sebuah paragraf&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    <p>Hasilnya akan seperti ini</p>
+    <iframe src="temp/1-1.html" frameborder="0"></iframe>
+    <p>Pembahasan</p>
+    <pre><code class="language-xml">&lt;!doctype html&gt;</code></pre>
+    <p>Untuk memberitahu browser kalau dokumen ini html5</p>
+    <pre><code class="language-xml">&lt;html lang=&quot;en&quot;&gt;</code></pre>
+    <p>Penandai awal dan akhir dari dokumen HTML. Atribut lang menunjukkan bahasa halaman (dalam contoh ini, bahasa Inggris). Setiap halaman harus menggunakannya</p>
+    <pre><code class="language-xml">&lt;head&gt;
+  ...
+&lt;head&gt;</code></pre>
+    <p>Mengandung informasi-informasi mengenai dokumen seperti karakter set, viewport, dan judul halaman.</p>
+    <pre><code class="language-xml">&lt;meta charset=&quot;UTF-8&quot;&gt;</code></pre>
+    <p>Menyediakan informasi mengenai karakter set dan konfigurasi tampilan halaman.</p>
+    <pre><code class="language-xml">&lt;title&gt;Belajar Html&lt;/title&gt;</code></pre>
+    Menentukan judul halaman yang akan ditampilkan di tab browser.
+    <pre><code class="language-xml">&lt;body&gt;
+  ...
+&lt;/body&gt;</code></pre>
+    Tempat untuk elemen-elemen yang akan ditampilkan di halaman web, seperti teks, gambar, dan formulir.
+    <pre><code class="language-xml">&lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;p&gt;Ini adalah sebuah paragraf&lt;/p&gt;</code></pre>
+    <p>Elemen-elemen ini membentuk konten halaman web seperti judul dan paragraf</p>
+    <h2>Struktur Dasar</h2>
+    <p>Setiap elemen HTML didefinisikan dengan menggunakan tag yang diletakkan di antara tanda kurung sudut, seperti &lt;tag&gt;kontennya&lt;/tag&gt;. Contohnya, &lt;p&gt; untuk paragraf dan &lt;h1&gt; untuk judul level 1. Elemen-elemen ini membantu browser dalam menampilkan halaman web dengan benar.</p>
+  </section>
+  <div class="paginate">
+    <a href="1.html">Prev</a>
+    <a href="2.html">Next</a>
+  </div>
+  <script src="../highlight.js"></script>
+  <script>hljs.highlightAll();</script>
+</body>
+</html>

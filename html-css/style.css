@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: Poppins, Sans-serif;
+}
+pre, code {
+  border-radius: 10px;
+}
+pre *,code * {
+  font-family: monospace;
+}
+
+body {
+  margin: auto;
+  max-width: 768px;
+  padding: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+a, a:visited {
+  color: blue;
+}
+
+.center {
+  text-align: center;
+}
+
+.paginate {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width:100%
+}
